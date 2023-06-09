@@ -1,0 +1,130 @@
+* {
+    font-size: 20px;
+}
+
+
+body
+{
+    background-color: #E2AA44;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' stroke-opacity='0.94'%3E%3Crect fill='%23E9AF46' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+.main 
+{
+padding-left: 15%;
+
+}
+
+.curriculum h1
+{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 4rem;
+ margin-top: 200px;
+}
+
+.curriculum h2
+{
+ font-family: 'Montserrat', sans-serif;
+ font-style: initial;
+ font-size: 2rem;
+}
+
+.objetivo 
+{
+ margin-top: 5rem;
+ margin-right: 25%;
+}
+
+.objetivo h1
+{
+  font-size: 2rem;
+  border-bottom: 5px solid black;
+  padding-bottom: 5px;
+}
+
+.objetivo p
+{
+  display: inline;
+  min-width: auto;
+}
+
+ p 
+{
+font-family: 'Open Sans', sans-serif;
+font-size: 1.3rem;
+padding-top: 15px;
+}
+
+.formacao 
+{
+  margin-top: 3rem;
+  margin-right: 25%;
+}
+
+.formacao h1
+ {
+    font-size: 2rem;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+}
+
+.experiencia {
+    margin-top: 3rem;
+    margin-right: 25%;
+}
+
+.experiencia h1 {
+    font-size: 2rem;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+}
+
+
+.informacoes {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 25%;
+    
+}
+
+.informacoes h1 {
+    font-size: 2rem;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: inherit;
+    color: black;
+    font-weight: bold;
+}
+
+@media (min-width: 500px)
+{
+  .curriculum h1
+  {
+    margin-right: 50%;
+    font-size: 3rem;
+  }
+
+  .curriculum h2
+  {
+    margin-right: 10%;
+  }
+}
+
+
+@media (min-width: 300px)
+{
+  .curriculum h1
+  {
+    margin-right: 50%;
+    font-size: 2.5rem;
+  }
+
+  .curriculum h2
+  {
+    margin-right: 10%;
+  }
+}
