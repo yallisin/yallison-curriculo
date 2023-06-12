@@ -100,8 +100,8 @@ a {
     font-weight: bold;
 }
 
-@media (min-width: 500px)
-{
+@media (min-width: 768px) {
+  @media (max-width: 1023px) {
   .curriculum h1
   {
     margin-right: 50%;
@@ -113,9 +113,10 @@ a {
     margin-right: 10%;
   }
 }
+}
 
 
-@media (min-width: 300px)
+@media (max-width: 767px)
 {
   .curriculum h1
   {
@@ -127,4 +128,9 @@ a {
   {
     margin-right: 10%;
   }
+}
+
+a:hover {
+  color: white;
+  transition: color 0.5s linear 100ms;
 }
