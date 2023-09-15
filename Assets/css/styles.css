@@ -134,6 +134,11 @@ a {
   }
 }
 
+.github {
+  font-size: 1.5rem;
+}
+
+
 a:hover {
   color: white;
   transition: color 0.5s linear 100ms;
