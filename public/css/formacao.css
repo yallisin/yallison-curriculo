@@ -1,0 +1,34 @@
+
+.conteudo
+{
+    flex-flow: column;
+}
+
+
+.certificado
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0 0 1rem;
+    
+}
+
+.aluno-destaque, .trabalho-inter
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.certificado p
+{
+    font-size: .7rem;
+}
+
+.certificado img
+{
+    height: 12rem;
+}
+iframe
+{
+    height: 12rem;  
+}

@@ -1,0 +1,33 @@
+
+.portfolio
+{
+    margin-top: 1rem;
+    font-family: "Onest", sans-serif;
+}
+.portfolio img
+{
+    height: 15rem;
+}
+
+.poupemais
+{
+    justify-self: flex-start;
+    margin-left: 10rem;
+}
+
+.editorpdf
+{
+    justify-self: flex-end;
+    margin-right: 10rem;
+}
+
+.github
+{
+    justify-self: center;
+}
+
+.github p
+{
+    color: black;
+    margin-bottom: 1rem;
+}

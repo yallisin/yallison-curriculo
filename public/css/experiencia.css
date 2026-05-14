@@ -1,0 +1,49 @@
+
+.conteudo
+{
+    flex-flow: column;
+}
+
+
+.experiencia
+{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.carousel
+{
+   margin: 2rem auto 0 auto;
+   display: flex;
+   width: 80%;
+   overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar
+{
+    display: none;
+}
+
+.group
+{
+    display: flex;
+    gap: 1rem;
+    animation: spin 10s infinite linear;
+    padding-right: 1rem;
+}
+.carousel-card
+{
+    flex: 0 0 5em;
+    height: 5rem;
+    width: 5rem;
+}
+.carousel-card img
+{
+    height: 100%;
+    width: 100%;
+}
+@keyframes spin
+{
+    from{translate:0;}
+    to{translate:-100%;}
+}

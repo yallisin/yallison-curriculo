@@ -1,0 +1,44 @@
+.apresentacao img
+{
+    height: 1.5rem;
+    margin-left: .5rem;
+    margin-top: 5px;
+}
+
+.apresentacao
+{
+    margin-left: 2rem;
+}
+.apresentacao p
+{
+    margin-left: .5rem;
+}
+
+.image
+{
+    height: 8rem;
+    width: 15rem;
+    background-color: white;
+    box-shadow: 7px 0 16px 0 rgba(0, 0, 0, 0.2);
+    padding: .5rem;
+    margin-right: 5rem;
+}
+.image img
+{
+    object-fit:cover;
+    height: 8rem;
+    width: 15rem;
+}
+
+
+
+.segunda-div
+{
+    margin: 1rem 10rem;
+}
+.segunda-div p
+{
+    font-family: 'Lexend', sans-serif;
+    margin: auto;
+
+}
